@@ -1,0 +1,14 @@
+1000000
+Mary TestPerson
+Patient Note:::6/20/2010:::Mary_1
+Patient Note:::6/20/2010:::Mary_2
+
+1000001
+Joe TestPerson
+Clinical Note:::4/6/2010:::Joe_1
+Summary:::7/2/2010:::Joe_2
+
+1000002
+Sam TestPerson
+Patient Note:::8/3/2012:::Sam_1
+

@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>Basic Patient Search</title>
   <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://builds.emberjs.com/release/ember-template-compiler.js"></script>
@@ -20,10 +21,9 @@
 
   
   <script type="text/x-handlebars" data-template-name="index"> 
-    {{input value=searchText placeholder="search here..." key-press="doSearch"}}
-    
-    <hr />
-    
+	<div class="inputBox">
+    	{{input value=searchText placeholder="search here..." key-press="doSearch" class="form-control" }}
+	</div>
     {{#if searchText}}
         
         {{#each results as |patient|}}
